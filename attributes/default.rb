@@ -11,6 +11,8 @@ default['rackspace_nginx_php']['nginx']['default_site']['cookbook'] = 'rackspace
 default['rackspace_nginx_php']['nginx']['default_site']['enable'] = true
 default['rackspace_nginx_php']['php-fpm']['default_pool']['enable'] = true
 default['php-fpm']['conf_dir'] = '/etc/php/5.6/fpm/'
+default['php-fpm']['conf_file'] = '/etc/php/5.6/fpm/php-fpm.conf'
+
 
 # PHP packages (not PHP-FPM)
 default['rackspace_nginx_php']['php_packages_install']['enable'] = true

@@ -64,17 +64,11 @@ php_fpm = {
     }
   },
   'debian' => {
-    '5.5' => {
-      'repo'    => 'http://ppa.launchpad.net/ondrej/php5/ubuntu',
-      'php_packages' => ['php5-cgi', 'php5', 'php5-dev', 'php5-cli', 'php-pear'],
-      'php_fpm_package' => 'php5-fpm',
-      'service' => 'php5-fpm'
-    },
     '5.6' => {
-      'repo'    => 'http://ppa.launchpad.net/ondrej/php5-5.6/ubuntu',
-      'php_packages' => ['php5-cgi', 'php5', 'php5-dev', 'php5-cli', 'php-pear'],
-      'php_fpm_package' => 'php5-fpm',
-      'service' => 'php5-fpm'
+      'repo'    => 'http://ppa.launchpad.net/ondrej/php5/ubuntu',
+      'php_packages' => ['php5.6-cgi', 'php5.6', 'php5.6-dev', 'php5.6-cli', 'php-pear'],
+      'php_fpm_package' => 'php5.6-fpm',
+      'service' => 'php5.6-fpm'
     }
   }
 }

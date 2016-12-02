@@ -65,7 +65,7 @@ php_fpm = {
   },
   'debian' => {
     '5.6' => {
-      'repo'    => 'http://ppa.launchpad.net/ondrej/php5/ubuntu',
+      'repo'    => 'http://ppa.launchpad.net/ondrej/php/ubuntu',
       'php_packages' => ['php5.6-cgi', 'php5.6', 'php5.6-dev', 'php5.6-cli', 'php-pear'],
       'php_fpm_package' => 'php5.6-fpm',
       'service' => 'php5.6-fpm'
